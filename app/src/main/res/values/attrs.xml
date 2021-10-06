@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DoraSportyProgressBar">
+        <attr name="dora_progressType">
+            <enum name="flat" value="0"/>
+            <enum name="semicircleTop" value="1"/>
+            <enum name="semicircleBottom" value="2"/>
+        </attr>
+        <attr name="dora_progressWidth" format="dimension|reference" />
+        <attr name="dora_progressBgColor" format="color|reference" />
+        <attr name="dora_progressHoverColor" format="color|reference" />
+        <attr name="dora_animationTime" format="integer" />
+    </declare-styleable>
+</resources>

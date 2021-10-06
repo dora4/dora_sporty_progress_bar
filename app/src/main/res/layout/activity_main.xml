@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <dora.widget.DoraSportyProgressBar
+        android:id="@+id/progressBarOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ff0"
+        app:dora_animationTime="1000"
+        app:dora_progressBgColor="#999"
+        app:dora_progressHoverColor="#389cff"
+        app:dora_progressType="semicircleTop" />
+
+    <dora.widget.DoraSportyProgressBar
+        android:id="@+id/progressBarTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:dora_animationTime="2000"
+        app:dora_progressBgColor="#999"
+        app:dora_progressHoverColor="@color/teal_200"
+        app:dora_progressType="flat" />
+
+    <dora.widget.DoraSportyProgressBar
+        android:id="@+id/progressBarThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ff0"
+        app:dora_animationTime="2000"
+        app:dora_progressBgColor="#666"
+        app:dora_progressHoverColor="#389cff"
+        app:dora_progressType="flat" />
+
+    <dora.widget.DoraSportyProgressBar
+        android:id="@+id/progressBarFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:dora_animationTime="2000"
+        app:dora_progressBgColor="#999"
+        app:dora_progressHoverColor="@color/teal_200"
+        app:dora_progressType="flat" />
+
+    <dora.widget.DoraSportyProgressBar
+        android:id="@+id/progressBarFive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ff0"
+        app:dora_animationTime="3000"
+        app:dora_progressBgColor="#999"
+        app:dora_progressHoverColor="#389cff"
+        app:dora_progressType="semicircleBottom" />
+</LinearLayout>
