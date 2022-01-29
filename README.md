@@ -4,9 +4,9 @@
 
 复杂度：★★☆☆☆
 
-分组：【Dora大控件组】
+分组：【进度条】
 
-关系：暂无
+关系：[dora_progress_button](https://github.com/dora4/dora_progress_button)、[dora_circular_progress_bar](https://github.com/dora4/dora_circular_progress_bar)
 
 技术要点：基本绘图、ValueAnimator、TypeEvaluator
 
@@ -36,3 +36,4 @@ val progressBar = findViewById<DoraSportyProgressBar>(R.id.progressBar)
 | dora_progressBgColor    | 进度条的背景色                                               |
 | dora_progressHoverColor | 进度条有效区域的颜色                                         |
 | dora_animationTime      | 刷新间隔时间，需要手动调用setPercentRate进行刷新             |
+
